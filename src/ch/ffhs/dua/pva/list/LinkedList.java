@@ -2,6 +2,7 @@ package ch.ffhs.dua.pva.list;
 
 import java.util.Iterator;
 import java.util.List;
+// http://www.sanfoundry.com/java-program-implement-circular-singly-linked-list/
 
 public class LinkedList<E> extends ListBasic<E> implements List<E>
 {
@@ -93,6 +94,12 @@ public class LinkedList<E> extends ListBasic<E> implements List<E>
         E element;
         Node<E> next;
         Node<E> prev;
+        
+        public Node(<E> data){
+            next = null;
+            prev = null;
+            element = data;
+        }
     }
     
     private class LinkedListIterator implements Iterator<E>
