@@ -6,7 +6,10 @@ import java.util.List;
 
 public class LinkedList<E> extends ListBasic<E> implements List<E>
 {
-
+    
+    public static void main(String [] args) {
+        Sy
+    }
 
     
     @Override
